@@ -5,4 +5,4 @@ The device creates a series of tones and lights and requires a user to repeat th
 
 #
 
-## PLAY GAME HERE : [SIMON GAME]()
+## PLAY GAME HERE : [SIMON GAME](https://lucifer00911.github.io/Simon-Game/)
