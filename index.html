@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title" class="animate__animated animate__flash">
+      Press Enter Key to Start
+    </h1>
+    <div class="container">
+      <div class="row">
+        <div
+          type="button"
+          id="green"
+          class="btn green animate__animated animate__bounceInDown"
+        ></div>
+
+        <div
+          type="button"
+          id="red"
+          class="btn red animate__animated animate__bounceInRight"
+        ></div>
+      </div>
+
+      <div class="row">
+        <div
+          type="button"
+          id="yellow"
+          class="btn yellow animate__animated animate__bounceInUp"
+        ></div>
+        <div
+          type="button"
+          id="blue"
+          class="btn blue animate__animated animate__bounceInRight"
+        ></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
