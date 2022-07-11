@@ -1,15 +1,9 @@
 let userClickedPattern = [];
-
 let gamePattern = [];
-
 let buttonColours = ["red","blue","green","yellow"];
-
 let randomNumber;
-
 let randomChosenColour;
-
 let start = false;
-
 let level = 0;
 
 $(document).on("keydown",function(event){
@@ -79,4 +73,3 @@ function gameOver(){
     start = false;
     level = 0;
 }
-
